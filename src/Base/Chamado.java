@@ -1,7 +1,5 @@
 package Base;
 
-import EstadosConcretos.EstadoAberto;
-
 public class Chamado {
 
     private String codigo;
@@ -9,11 +7,11 @@ public class Chamado {
     private String solicitante;
     private EstadoChamado estadoAtual;
 
-    public Chamado(String codigo, String descricao, String solicitante, EstadoAberto aberto) {
+    public Chamado(String codigo, String descricao, String solicitante, EstadoChamado estadoInicial) {
         this.codigo = codigo;
         this.descricao = descricao;
         this.solicitante = solicitante;
-        this.estadoAtual = aberto;
+        this.estadoAtual = estadoInicial;
     }
 
 

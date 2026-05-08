@@ -1,7 +1,5 @@
 package Main;
-
 import Base.Chamado;
-import Base.EstadoChamado;
 import EstadosConcretos.EstadoAberto;
 
 public class Main {

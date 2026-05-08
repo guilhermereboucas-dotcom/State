@@ -1,5 +1,4 @@
 package EstadosConcretos;
-
 import Base.Chamado;
 import Base.EstadoChamado;
 
@@ -16,7 +15,7 @@ public class EstadoCancelado implements EstadoChamado {
 
     @Override
     public void responderCliente(Chamado chamado) {
-        System.out.println("Não é responder cliente em um chamado cancelado.");
+        System.out.println("Não é possível responder cliente em um chamado cancelado.");
     }
 
     @Override
