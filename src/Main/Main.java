@@ -5,6 +5,8 @@ import EstadosConcretos.EstadoAberto;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("------PASSO 1------");
+        System.out.println("Criando primeiro chamado...");
         Chamado chamado = new Chamado("XRBR", "NACIONAL", "Jorge", new EstadoAberto());
         System.out.println("------PASSO 2------");
         chamado.resolver();
